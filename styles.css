@@ -1,0 +1,65 @@
+/* General Resets */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a basic font */
+  h1 {
+    font-family: 'Oleo Script', sans-serif;
+    
+
+  }
+  .insta-header i{
+    margin-left: 500px;
+    margin-bottom: 15px;
+ 
+  }
+  .insta_header h1{
+    margin-bottom: 10px;
+  }
+
+
+  .carousel-images{
+align-items: flex-start;
+display:flex;
+/*justify-content:space-around;*/
+  }
+
+  .lower_header {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-left: 15px;
+  }
+  .center_stage{
+  margin-left:25px 
+  }
+  .footer-icons {
+    display:flex;
+    /* justify-content:space-around; */
+    justify-content:space-evenly;
+    align-items: center;
+    margin-right: 55%;
+    margin-top: 15px;
+  }
+.carousel-images img{
+  border-radius: 50%;
+  margin-left: 11px;
+}
+.lower_header img{
+  border-radius: 50%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.lower_header h3{
+  margin-left: 20px;
+}
+  
+body{
+  background-color: black;
+}
+
+  
